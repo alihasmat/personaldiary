@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #370617;
+}
+
+#refresh-icon {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#simple-form {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+#text {
+    width: 800px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #faa307;
+    border: unset;
+    margin-bottom: 25px;
+    font-size: 18px;
+    box-shadow: 5px 10px 8px #99999999;
+}
+
+#text:focus {
+    outline: none;
+}
+
+#submit-button {
+    padding: 10px 40px;
+    background-color: #003049;
+    border: unset;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    margin-left: 84%;
+    margin-bottom: 25px;
+    box-shadow: 5px 10px 8px #99999999;
+    cursor: pointer;
+}
+
+#submit-button:focus {
+    outline: none;
+}
+
+#display-items {
+    font-family: "Patrick Hand", cursive;
+    font-size: 16px;
+    background-color: #ee6c4d;
+    border: unset;
+    border-radius: 25px;
+    padding: 25px;
+    width: 800px;
+    display: flex;
+}
+
+.display-button {
+    border: 1px solid black;
+    background: #2ec4b6;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.display-button:focus {
+    outline: none;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Diary</title>
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1>My Personal Diary</h1>
+        <i id="refresh-icon" class="fa fa-refresh"> Clear the storage </i>
+        <form id="simple-form">
+            <textarea type="text" id="text" placeholder="Type something here..." onkeyup="enableButton()" required></textarea>
+            <br />
+            <button id="submit-button" style="background-color: grey;" disabled>Submit</button>
+        </form>
+
+        <section id="display-items">
+            <div id="nav-button"></div>
+        </section>
+
+    <script src="index.js"></script>
+    </body>
+
+
+</html>
